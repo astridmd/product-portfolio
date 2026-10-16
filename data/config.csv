@@ -1,0 +1,8 @@
+key,value
+subsidiary_id,2
+erp_currency_id,1
+monthly_run_id,1
+window_start,202601
+window_end,202612
+default_period,202609
+rounding_tolerance,0.05

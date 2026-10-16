@@ -1,0 +1,15 @@
+"Mickey Mouse v3: six deposits, placement-led recognition. Spread from placementStartDate; payout_date metadata only. No PO for bonus. No CA/CL in IRRS target. Path: transformation → Grouping → Journal summary. Full Dr/Cr posting example: Monthly posting Sep 2026 tab only. Gap vs Alex workbook: actual term at deposit grain, not 14-month pool average.",Posting month,posting_period_id,process_type_id,process_type,Aggregated amount,Grouping key,entity on key,Note
+RaF journal,Jan 2026,202601,9001,RaF (placeholder),8.33333333,202601-9001-1-2-1,no,Sum of RaF deposit slices for recognition month
+welcome journal,Jan 2026,202601,9002,welcome (placeholder),50.00000000,202601-9002-1-2-1,no,Sum of welcome deposit slices for recognition month
+RaF journal,Feb 2026,202602,9001,RaF (placeholder),8.33333333,202602-9001-1-2-1,no,Sum of RaF deposit slices for recognition month
+RaF journal,Mar 2026,202603,9001,RaF (placeholder),16.66666667,202603-9001-1-2-1,no,Sum of RaF deposit slices for recognition month
+RaF journal,Apr 2026,202604,9001,RaF (placeholder),30.00000000,202604-9001-1-2-1,no,Sum of RaF deposit slices for recognition month
+RaF journal,May 2026,202605,9001,RaF (placeholder),30.00000000,202605-9001-1-2-1,no,Sum of RaF deposit slices for recognition month
+RaF journal,Jun 2026,202606,9001,RaF (placeholder),30.00000000,202606-9001-1-2-1,no,Sum of RaF deposit slices for recognition month
+RaF journal,Jul 2026,202607,9001,RaF (placeholder),30.00000000,202607-9001-1-2-1,no,Sum of RaF deposit slices for recognition month
+RaF journal,Aug 2026,202608,9001,RaF (placeholder),30.00000000,202608-9001-1-2-1,no,Sum of RaF deposit slices for recognition month
+RaF journal,Sep 2026,202609,9001,RaF (placeholder),40.00000000,202609-9001-1-2-1,no,Sum of RaF deposit slices for recognition month
+welcome journal,Sep 2026,202609,9002,welcome (placeholder),40.00000000,202609-9002-1-2-1,no,Sum of welcome deposit slices for recognition month
+RaF journal,Oct 2026,202610,9001,RaF (placeholder),26.66666667,202610-9001-1-2-1,no,Sum of RaF deposit slices for recognition month
+RaF journal,Nov 2026,202611,9001,RaF (placeholder),26.66666667,202611-9001-1-2-1,no,Sum of RaF deposit slices for recognition month
+RaF journal,Dec 2026,202612,9001,RaF (placeholder),26.66666667,202612-9001-1-2-1,no,Sum of RaF deposit slices for recognition month

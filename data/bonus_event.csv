@@ -1,0 +1,9 @@
+event_id,sample,deposit_id,bonus_type,product_id,term,amount,placement_date,payout_date
+E1,FTD RaF Lead,FDA_MM_001,RaF Bonus (Lead),1,12,100.00,2026-01-01,2026-01-05
+E2,Term RaF Referrer,FDA_MM_002,RaF Bonus (Referrer),1,6,80.00,2026-04-01,2026-06-10
+E3,Term RaF Lead dual,FDA_MM_003,RaF Bonus (Lead),1,24,100.00,2026-03-01,2026-03-15
+E4,Term RaF Referrer dual,FDA_MM_003,RaF Bonus (Referrer),1,24,100.00,2026-03-01,2026-03-15
+E5,Term RaF Lead Sep open,FDA_MM_004,RaF Bonus (Lead),1,12,60.00,2026-09-01,2026-09-12
+E6,Term RaF Referrer Sep open,FDA_MM_004,RaF Bonus (Referrer),1,12,60.00,2026-09-01,2026-09-12
+E7,Overnight welcome,OMA_MM_001,welcome,2,0,50.00,2026-01-01,2026-02-20
+E8,Overnight welcome Sep open,OMA_MM_002,welcome,2,0,40.00,2026-09-01,2026-09-05

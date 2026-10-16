@@ -1,0 +1,53 @@
+"Monthly posting Sep 2026 — recognition month Sep 2026, posting_period_id 202609. Posted in Oct 2026 monthly run. RaF journal = bonus payout capitalisation of deposits starting this month + bonus cost release of the month. Welcome ERP GL TBC with Alex.",,,,,
+,,,,,
+1 — From Journal summary (after Grouping roll-up),,,,,
+process_type,posting_period_id,Aggregated amount,Grouping key,Note,
+RaF (placeholder),202609,40.00000000,202609-9001-1-2-1,Recognised RaF amount of Sep 2026 (lead and referrer together),
+welcome (placeholder),202609,40.00000000,202609-9002-1-2-1,Sum of welcome deposit slices in Grouping for Sep 2026; ERP GL posting TBC with Alex,
+Subledger close: RaF 40.00 + welcome 40.00. Section 2 uses RaF only.,,,,,
+,,,,,
+"2 — RaF ERP journal for Sep 2026. Lead and referrer share the refer_a_friend process type and post identically. Each amount is split 50% Prepayments / 50% Contract costs. Step 1, bonus payout capitalisation: capitalise the whole bonus in the first month of its recognition schedule (placement month; payout date does not matter). Step 2, bonus cost release: release the recognised amount every month per the transformation schedule. Overnight deposits: both steps in the same month.",,,,,
+,,,,,
+"2a — Inputs to the journal, per RaF deposit event (posting_period_id 202609). Recognised in Sep adds up to section 1. Whole bonus starting in Sep is the capitalisation base.",,,,,
+Sample,depositId,Bonus type,placementStart,Whole bonus starting in Sep,Recognised in Sep
+FTD RaF Lead,FDA_MM_001,RaF Bonus (Lead),2026-01-01,,8.33333333
+Term RaF Referrer,FDA_MM_002,RaF Bonus (Referrer),2026-04-01,,13.33333333
+Term RaF Lead dual,FDA_MM_003,RaF Bonus (Lead),2026-03-01,,4.16666667
+Term RaF Referrer dual,FDA_MM_003,RaF Bonus (Referrer),2026-03-01,,4.16666667
+Term RaF Lead Sep open,FDA_MM_004,RaF Bonus (Lead),2026-09-01,60.00,5.00000000
+Term RaF Referrer Sep open,FDA_MM_004,RaF Bonus (Referrer),2026-09-01,60.00,5.00000000
+TOTAL,,,,120.00,40.00000000
+,,,,,
+"2b — Step 1, bonus payout capitalisation: whole bonus of deposits starting in Sep 2026 (new bonuses).",,,,,
+Posting month,posting_period_id,Account name,Debit,Credit,Comment
+Sep 2026,202609,Prepayments,60.00,,50% of new bonuses
+Sep 2026,202609,Contract costs (C),60.00,,50% of new bonuses
+Sep 2026,202609,Selling and distribution expenses,,120.00,100% of new bonuses; reverses the payout expense (TBC with Alex)
+Total,,,120.00,120.00,Debits equal credits
+,,,,,
+"2c — Step 2, bonus cost release: recognised amount of Sep 2026 (all active deposits, new and older).",,,,,
+Posting month,posting_period_id,Account name,Debit,Credit,Comment
+Sep 2026,202609,Prepayments,,20.00,50% of recognised amount
+Sep 2026,202609,Contract costs (C),,20.00,50% of recognised amount
+Sep 2026,202609,Revenue,20.00,,50% of recognised amount; Umsatzminderung
+Sep 2026,202609,Selling and distribution expenses,20.00,,50% of recognised amount
+Total,,,40.00,40.00,Debits equal credits
+,,,,,
+2d — Net RaF journal to post for Sep 2026 (2b plus 2c).,,,,,
+Posting month,posting_period_id,Account name,Debit,Credit,Comment
+Sep 2026,202609,Prepayments,40.00,,(new bonuses minus recognised amount) / 2
+Sep 2026,202609,Contract costs (C),40.00,,(new bonuses minus recognised amount) / 2
+Sep 2026,202609,Revenue,20.00,,recognised amount / 2
+Sep 2026,202609,Selling and distribution expenses,,100.00,new bonuses minus (recognised amount / 2)
+Total,,,100.00,100.00,Debits equal credits
+,,,,,
+"2e — Debit or credit side by month. N = new bonuses, R = recognised amount. Debits always equal credits. Sep 2026 is the first case.",,,,,
+Condition,Prepayments,Contract costs (C),Revenue,Selling and distribution expenses,
+N larger than R,Debit,Debit,Debit,Credit,
+N between R / 2 and R,Credit,Credit,Debit,Credit,
+N smaller than R / 2,Credit,Credit,Debit,Debit,
+,,,,,
+3 — Welcome bonus: ERP GL posting TBC with Alex (not part of the RaF journal above),,,,,
+Sample,depositId,placementStart,recognition posting_period_id,bonus,Note
+Overnight welcome,OMA_MM_001,2026-01-01,202601,50.00000000,GL posting TBC with Alex
+Overnight welcome Sep open,OMA_MM_002,2026-09-01,202609,40.00000000,GL posting TBC with Alex

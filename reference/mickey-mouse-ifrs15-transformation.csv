@@ -1,0 +1,106 @@
+Step 1 — Transformation. One row per deposit bonus event per recognition month (amount/term from placementStartDate; overnight 100% in open month). Step 2 — Grouping uses the same Recognised amounts plus process type.,depositId,Bonus type,Posting month,posting_period_id,marketingBonusAmount,term,Recognised (8 dp),Recognised (2 dp),Rule
+Sample,depositId,Bonus type,Posting month,posting_period_id,marketingBonusAmount,term,Recognised (8 dp),Recognised (2 dp),Rule
+FTD RaF Lead,FDA_MM_001,RaF Bonus (Lead),Jan 2026,202601,100.00000000,12,8.33333333,8.33,amount / term
+FTD RaF Lead,FDA_MM_001,RaF Bonus (Lead),Feb 2026,202602,100.00000000,12,8.33333333,8.33,amount / term
+FTD RaF Lead,FDA_MM_001,RaF Bonus (Lead),Mar 2026,202603,100.00000000,12,8.33333333,8.33,amount / term
+FTD RaF Lead,FDA_MM_001,RaF Bonus (Lead),Apr 2026,202604,100.00000000,12,8.33333333,8.33,amount / term
+FTD RaF Lead,FDA_MM_001,RaF Bonus (Lead),May 2026,202605,100.00000000,12,8.33333333,8.33,amount / term
+FTD RaF Lead,FDA_MM_001,RaF Bonus (Lead),Jun 2026,202606,100.00000000,12,8.33333333,8.33,amount / term
+FTD RaF Lead,FDA_MM_001,RaF Bonus (Lead),Jul 2026,202607,100.00000000,12,8.33333333,8.33,amount / term
+FTD RaF Lead,FDA_MM_001,RaF Bonus (Lead),Aug 2026,202608,100.00000000,12,8.33333333,8.33,amount / term
+FTD RaF Lead,FDA_MM_001,RaF Bonus (Lead),Sep 2026,202609,100.00000000,12,8.33333333,8.33,amount / term
+FTD RaF Lead,FDA_MM_001,RaF Bonus (Lead),Oct 2026,202610,100.00000000,12,8.33333333,8.33,amount / term
+FTD RaF Lead,FDA_MM_001,RaF Bonus (Lead),Nov 2026,202611,100.00000000,12,8.33333333,8.33,amount / term
+FTD RaF Lead,FDA_MM_001,RaF Bonus (Lead),Dec 2026,202612,100.00000000,12,8.33333333,8.33,amount / term
+Term RaF Referrer,FDA_MM_002,RaF Bonus (Referrer),Apr 2026,202604,80.00000000,6,13.33333333,13.33,amount / term
+Term RaF Referrer,FDA_MM_002,RaF Bonus (Referrer),May 2026,202605,80.00000000,6,13.33333333,13.33,amount / term
+Term RaF Referrer,FDA_MM_002,RaF Bonus (Referrer),Jun 2026,202606,80.00000000,6,13.33333333,13.33,amount / term
+Term RaF Referrer,FDA_MM_002,RaF Bonus (Referrer),Jul 2026,202607,80.00000000,6,13.33333333,13.33,amount / term
+Term RaF Referrer,FDA_MM_002,RaF Bonus (Referrer),Aug 2026,202608,80.00000000,6,13.33333333,13.33,amount / term
+Term RaF Referrer,FDA_MM_002,RaF Bonus (Referrer),Sep 2026,202609,80.00000000,6,13.33333333,13.33,amount / term
+Term RaF Lead dual,FDA_MM_003,RaF Bonus (Lead),Mar 2026,202603,100.00000000,24,4.16666667,4.17,amount / term
+Term RaF Lead dual,FDA_MM_003,RaF Bonus (Lead),Apr 2026,202604,100.00000000,24,4.16666667,4.17,amount / term
+Term RaF Lead dual,FDA_MM_003,RaF Bonus (Lead),May 2026,202605,100.00000000,24,4.16666667,4.17,amount / term
+Term RaF Lead dual,FDA_MM_003,RaF Bonus (Lead),Jun 2026,202606,100.00000000,24,4.16666667,4.17,amount / term
+Term RaF Lead dual,FDA_MM_003,RaF Bonus (Lead),Jul 2026,202607,100.00000000,24,4.16666667,4.17,amount / term
+Term RaF Lead dual,FDA_MM_003,RaF Bonus (Lead),Aug 2026,202608,100.00000000,24,4.16666667,4.17,amount / term
+Term RaF Lead dual,FDA_MM_003,RaF Bonus (Lead),Sep 2026,202609,100.00000000,24,4.16666667,4.17,amount / term
+Term RaF Lead dual,FDA_MM_003,RaF Bonus (Lead),Oct 2026,202610,100.00000000,24,4.16666667,4.17,amount / term
+Term RaF Lead dual,FDA_MM_003,RaF Bonus (Lead),Nov 2026,202611,100.00000000,24,4.16666667,4.17,amount / term
+Term RaF Lead dual,FDA_MM_003,RaF Bonus (Lead),Dec 2026,202612,100.00000000,24,4.16666667,4.17,amount / term
+Term RaF Lead dual,FDA_MM_003,RaF Bonus (Lead),Jan 2027,202701,100.00000000,24,4.16666667,4.17,amount / term
+Term RaF Lead dual,FDA_MM_003,RaF Bonus (Lead),Feb 2027,202702,100.00000000,24,4.16666667,4.17,amount / term
+Term RaF Lead dual,FDA_MM_003,RaF Bonus (Lead),Mar 2027,202703,100.00000000,24,4.16666667,4.17,amount / term
+Term RaF Lead dual,FDA_MM_003,RaF Bonus (Lead),Apr 2027,202704,100.00000000,24,4.16666667,4.17,amount / term
+Term RaF Lead dual,FDA_MM_003,RaF Bonus (Lead),May 2027,202705,100.00000000,24,4.16666667,4.17,amount / term
+Term RaF Lead dual,FDA_MM_003,RaF Bonus (Lead),Jun 2027,202706,100.00000000,24,4.16666667,4.17,amount / term
+Term RaF Lead dual,FDA_MM_003,RaF Bonus (Lead),Jul 2027,202707,100.00000000,24,4.16666667,4.17,amount / term
+Term RaF Lead dual,FDA_MM_003,RaF Bonus (Lead),Aug 2027,202708,100.00000000,24,4.16666667,4.17,amount / term
+Term RaF Lead dual,FDA_MM_003,RaF Bonus (Lead),Sep 2027,202709,100.00000000,24,4.16666667,4.17,amount / term
+Term RaF Lead dual,FDA_MM_003,RaF Bonus (Lead),Oct 2027,202710,100.00000000,24,4.16666667,4.17,amount / term
+Term RaF Lead dual,FDA_MM_003,RaF Bonus (Lead),Nov 2027,202711,100.00000000,24,4.16666667,4.17,amount / term
+Term RaF Lead dual,FDA_MM_003,RaF Bonus (Lead),Dec 2027,202712,100.00000000,24,4.16666667,4.17,amount / term
+Term RaF Lead dual,FDA_MM_003,RaF Bonus (Lead),Jan 2028,202801,100.00000000,24,4.16666667,4.17,amount / term
+Term RaF Lead dual,FDA_MM_003,RaF Bonus (Lead),Feb 2028,202802,100.00000000,24,4.16666667,4.17,amount / term
+Term RaF Referrer dual,FDA_MM_003,RaF Bonus (Referrer),Mar 2026,202603,100.00000000,24,4.16666667,4.17,amount / term
+Term RaF Referrer dual,FDA_MM_003,RaF Bonus (Referrer),Apr 2026,202604,100.00000000,24,4.16666667,4.17,amount / term
+Term RaF Referrer dual,FDA_MM_003,RaF Bonus (Referrer),May 2026,202605,100.00000000,24,4.16666667,4.17,amount / term
+Term RaF Referrer dual,FDA_MM_003,RaF Bonus (Referrer),Jun 2026,202606,100.00000000,24,4.16666667,4.17,amount / term
+Term RaF Referrer dual,FDA_MM_003,RaF Bonus (Referrer),Jul 2026,202607,100.00000000,24,4.16666667,4.17,amount / term
+Term RaF Referrer dual,FDA_MM_003,RaF Bonus (Referrer),Aug 2026,202608,100.00000000,24,4.16666667,4.17,amount / term
+Term RaF Referrer dual,FDA_MM_003,RaF Bonus (Referrer),Sep 2026,202609,100.00000000,24,4.16666667,4.17,amount / term
+Term RaF Referrer dual,FDA_MM_003,RaF Bonus (Referrer),Oct 2026,202610,100.00000000,24,4.16666667,4.17,amount / term
+Term RaF Referrer dual,FDA_MM_003,RaF Bonus (Referrer),Nov 2026,202611,100.00000000,24,4.16666667,4.17,amount / term
+Term RaF Referrer dual,FDA_MM_003,RaF Bonus (Referrer),Dec 2026,202612,100.00000000,24,4.16666667,4.17,amount / term
+Term RaF Referrer dual,FDA_MM_003,RaF Bonus (Referrer),Jan 2027,202701,100.00000000,24,4.16666667,4.17,amount / term
+Term RaF Referrer dual,FDA_MM_003,RaF Bonus (Referrer),Feb 2027,202702,100.00000000,24,4.16666667,4.17,amount / term
+Term RaF Referrer dual,FDA_MM_003,RaF Bonus (Referrer),Mar 2027,202703,100.00000000,24,4.16666667,4.17,amount / term
+Term RaF Referrer dual,FDA_MM_003,RaF Bonus (Referrer),Apr 2027,202704,100.00000000,24,4.16666667,4.17,amount / term
+Term RaF Referrer dual,FDA_MM_003,RaF Bonus (Referrer),May 2027,202705,100.00000000,24,4.16666667,4.17,amount / term
+Term RaF Referrer dual,FDA_MM_003,RaF Bonus (Referrer),Jun 2027,202706,100.00000000,24,4.16666667,4.17,amount / term
+Term RaF Referrer dual,FDA_MM_003,RaF Bonus (Referrer),Jul 2027,202707,100.00000000,24,4.16666667,4.17,amount / term
+Term RaF Referrer dual,FDA_MM_003,RaF Bonus (Referrer),Aug 2027,202708,100.00000000,24,4.16666667,4.17,amount / term
+Term RaF Referrer dual,FDA_MM_003,RaF Bonus (Referrer),Sep 2027,202709,100.00000000,24,4.16666667,4.17,amount / term
+Term RaF Referrer dual,FDA_MM_003,RaF Bonus (Referrer),Oct 2027,202710,100.00000000,24,4.16666667,4.17,amount / term
+Term RaF Referrer dual,FDA_MM_003,RaF Bonus (Referrer),Nov 2027,202711,100.00000000,24,4.16666667,4.17,amount / term
+Term RaF Referrer dual,FDA_MM_003,RaF Bonus (Referrer),Dec 2027,202712,100.00000000,24,4.16666667,4.17,amount / term
+Term RaF Referrer dual,FDA_MM_003,RaF Bonus (Referrer),Jan 2028,202801,100.00000000,24,4.16666667,4.17,amount / term
+Term RaF Referrer dual,FDA_MM_003,RaF Bonus (Referrer),Feb 2028,202802,100.00000000,24,4.16666667,4.17,amount / term
+Term RaF Lead Sep open,FDA_MM_004,RaF Bonus (Lead),Sep 2026,202609,60.00000000,12,5.00000000,5.00,amount / term
+Term RaF Lead Sep open,FDA_MM_004,RaF Bonus (Lead),Oct 2026,202610,60.00000000,12,5.00000000,5.00,amount / term
+Term RaF Lead Sep open,FDA_MM_004,RaF Bonus (Lead),Nov 2026,202611,60.00000000,12,5.00000000,5.00,amount / term
+Term RaF Lead Sep open,FDA_MM_004,RaF Bonus (Lead),Dec 2026,202612,60.00000000,12,5.00000000,5.00,amount / term
+Term RaF Lead Sep open,FDA_MM_004,RaF Bonus (Lead),Jan 2027,202701,60.00000000,12,5.00000000,5.00,amount / term
+Term RaF Lead Sep open,FDA_MM_004,RaF Bonus (Lead),Feb 2027,202702,60.00000000,12,5.00000000,5.00,amount / term
+Term RaF Lead Sep open,FDA_MM_004,RaF Bonus (Lead),Mar 2027,202703,60.00000000,12,5.00000000,5.00,amount / term
+Term RaF Lead Sep open,FDA_MM_004,RaF Bonus (Lead),Apr 2027,202704,60.00000000,12,5.00000000,5.00,amount / term
+Term RaF Lead Sep open,FDA_MM_004,RaF Bonus (Lead),May 2027,202705,60.00000000,12,5.00000000,5.00,amount / term
+Term RaF Lead Sep open,FDA_MM_004,RaF Bonus (Lead),Jun 2027,202706,60.00000000,12,5.00000000,5.00,amount / term
+Term RaF Lead Sep open,FDA_MM_004,RaF Bonus (Lead),Jul 2027,202707,60.00000000,12,5.00000000,5.00,amount / term
+Term RaF Lead Sep open,FDA_MM_004,RaF Bonus (Lead),Aug 2027,202708,60.00000000,12,5.00000000,5.00,amount / term
+Term RaF Referrer Sep open,FDA_MM_004,RaF Bonus (Referrer),Sep 2026,202609,60.00000000,12,5.00000000,5.00,amount / term
+Term RaF Referrer Sep open,FDA_MM_004,RaF Bonus (Referrer),Oct 2026,202610,60.00000000,12,5.00000000,5.00,amount / term
+Term RaF Referrer Sep open,FDA_MM_004,RaF Bonus (Referrer),Nov 2026,202611,60.00000000,12,5.00000000,5.00,amount / term
+Term RaF Referrer Sep open,FDA_MM_004,RaF Bonus (Referrer),Dec 2026,202612,60.00000000,12,5.00000000,5.00,amount / term
+Term RaF Referrer Sep open,FDA_MM_004,RaF Bonus (Referrer),Jan 2027,202701,60.00000000,12,5.00000000,5.00,amount / term
+Term RaF Referrer Sep open,FDA_MM_004,RaF Bonus (Referrer),Feb 2027,202702,60.00000000,12,5.00000000,5.00,amount / term
+Term RaF Referrer Sep open,FDA_MM_004,RaF Bonus (Referrer),Mar 2027,202703,60.00000000,12,5.00000000,5.00,amount / term
+Term RaF Referrer Sep open,FDA_MM_004,RaF Bonus (Referrer),Apr 2027,202704,60.00000000,12,5.00000000,5.00,amount / term
+Term RaF Referrer Sep open,FDA_MM_004,RaF Bonus (Referrer),May 2027,202705,60.00000000,12,5.00000000,5.00,amount / term
+Term RaF Referrer Sep open,FDA_MM_004,RaF Bonus (Referrer),Jun 2027,202706,60.00000000,12,5.00000000,5.00,amount / term
+Term RaF Referrer Sep open,FDA_MM_004,RaF Bonus (Referrer),Jul 2027,202707,60.00000000,12,5.00000000,5.00,amount / term
+Term RaF Referrer Sep open,FDA_MM_004,RaF Bonus (Referrer),Aug 2027,202708,60.00000000,12,5.00000000,5.00,amount / term
+Overnight welcome,OMA_MM_001,welcome,Jan 2026,202601,50.00000000,0,50.00000000,50.00,100% in open month
+Overnight welcome Sep open,OMA_MM_002,welcome,Sep 2026,202609,40.00000000,0,40.00000000,40.00,100% in open month
+,,,,,,,,,
+Sep 2026 check (posting_period_id 202609) — must match Grouping and Journal summary,,,,,,,,,
+Bonus type filter,depositId,posting_period_id,Recognised (8 dp),Journal summary line,,,,,
+RaF Bonus (Lead),FDA_MM_001,202609,8.33333333,RaF (sum of RaF slices),,,,,
+RaF Bonus (Referrer),FDA_MM_002,202609,13.33333333,RaF (sum of RaF slices),,,,,
+RaF Bonus (Lead),FDA_MM_003,202609,4.16666667,RaF (sum of RaF slices),,,,,
+RaF Bonus (Referrer),FDA_MM_003,202609,4.16666667,RaF (sum of RaF slices),,,,,
+RaF Bonus (Lead),FDA_MM_004,202609,5.00000000,RaF (sum of RaF slices),,,,,
+RaF Bonus (Referrer),FDA_MM_004,202609,5.00000000,RaF (sum of RaF slices),,,,,
+welcome,OMA_MM_002,202609,40.00000000,welcome 40.00,,,,,
+TOTAL RaF Sep,,202609,40.00000000,Journal summary RaF line 202609,,,,,
+TOTAL welcome Sep,,202609,40.00000000,Journal summary welcome 40.00000000,,,,,

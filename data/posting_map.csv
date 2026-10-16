@@ -1,0 +1,8 @@
+process_type_id,step,line_no,account,side,basis,share
+9001,capitalisation,1,Prepayments,Dr,new_bonuses,0.5
+9001,capitalisation,2,Contract costs (C),Dr,new_bonuses,0.5
+9001,capitalisation,3,Selling and distribution expenses,Cr,new_bonuses,1
+9001,release,1,Prepayments,Cr,recognised,0.5
+9001,release,2,Contract costs (C),Cr,recognised,0.5
+9001,release,3,Revenue,Dr,recognised,0.5
+9001,release,4,Selling and distribution expenses,Dr,recognised,0.5

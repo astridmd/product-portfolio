@@ -1,0 +1,25 @@
+{
+  "_note": "Hand-calculated for September 2026 (posting_period_id 202609). New bonuses: FDA_MM_004 lead 60 plus referrer 60. Recognised: 100/12 + 80/6 + 2 x 100/24 + 2 x 60/12 = 8.33333333 + 13.33333333 + 8.33333334 + 10 = 40. Each amount is split in two equal halves between Prepayments and Contract costs.",
+  "period": "202609",
+  "raf_journal_summary": "40.00000000",
+  "welcome_journal_summary": "40.00000000",
+  "new_bonuses": "120.00",
+  "regime": 1,
+  "capitalisation": {
+    "Prepayments": ["60.00", "0.00"],
+    "Contract costs (C)": ["60.00", "0.00"],
+    "Selling and distribution expenses": ["0.00", "120.00"]
+  },
+  "release": {
+    "Prepayments": ["0.00", "20.00"],
+    "Contract costs (C)": ["0.00", "20.00"],
+    "Revenue": ["20.00", "0.00"],
+    "Selling and distribution expenses": ["20.00", "0.00"]
+  },
+  "net": {
+    "Prepayments": ["40.00", "0.00"],
+    "Contract costs (C)": ["40.00", "0.00"],
+    "Revenue": ["20.00", "0.00"],
+    "Selling and distribution expenses": ["0.00", "100.00"]
+  }
+}
