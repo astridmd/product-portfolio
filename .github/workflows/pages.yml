@@ -22,7 +22,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - run: python3 -m unittest discover -s tests -t . -v
+      - name: Test bonus-recognition-prototype
+        working-directory: bonus-recognition-prototype
+        run: python3 -m unittest discover -s tests -t . -v
 
   deploy:
     needs: test
@@ -35,10 +37,13 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - run: python3 -m src.run public
+      - name: Build bonus-recognition-prototype
+        working-directory: bonus-recognition-prototype
+        run: python3 -m src.run ../_site/bonus-recognition-prototype
+      - run: cp index.html _site/index.html
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: public
+          path: _site
       - id: deployment
         uses: actions/deploy-pages@v4
