@@ -1,0 +1,8 @@
+person_id,hashed_id,entity_code,person_type,cost_centre,currency
+INT001,,Entity A,internal,Platform,EUR
+INT002,,Entity A,internal,Platform,EUR
+INT003,,Entity A,internal,Product,EUR
+INT004,,Entity A,internal,Design,EUR
+INT005,,Entity B,internal,Platform,EUR
+EXT001,,Entity A,external,Platform,EUR
+EXT002,,Entity A,external,Platform,EUR

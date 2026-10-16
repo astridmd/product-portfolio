@@ -1,0 +1,5 @@
+entity_code,period,scope,department,headcount
+Entity A,2026-01,entity,,97.0
+Entity A,2026-01,department,Platform,31.0
+Entity A,2026-01,department,Product,9.0
+Entity A,2026-01,department,Design,8.0

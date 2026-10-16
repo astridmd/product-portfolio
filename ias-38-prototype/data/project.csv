@@ -1,0 +1,4 @@
+project_id,project_name,entity_code,product_idea_id,capitalisation_status,project_status,start_date,end_date,go_live_date
+P001,Project Alpha,Entity A,IDEA-1,approved,in-progress,2026-04-06,2026-09-30,2026-09-30
+P002,Project Beta,Entity A,,approved,in-progress,,,
+P003,Project Gamma,Entity B,,approved,in-progress,,,

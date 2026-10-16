@@ -1,0 +1,11 @@
+account_code,account_name,account_type
+1001,Software WIP,Balance sheet (asset)
+1002,Finished Software,Balance sheet (asset)
+1009,Accumulated Amortization,Balance sheet (contra-asset)
+5001,Amortization of Intangible Assets,P&L (D&A expense)
+4001,Own Work Capitalized (Salaries),P&L (contra-expense)
+4002,Own Work Capitalized (Social Security),P&L (contra-expense)
+4003,Own Work Capitalized (ESOP),P&L (contra-expense)
+4004,Own Work Capitalized (Contractors),P&L (contra-expense)
+4005,Own Work Capitalized (General Overheads),P&L (contra-expense)
+4006,Own Work Capitalized (Dept Overheads),P&L (contra-expense)

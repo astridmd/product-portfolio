@@ -1,0 +1,2 @@
+policy_id,useful_life_months,method
+default,60,straight_line

@@ -1,0 +1,5 @@
+entity_code,person_type,period,working_weeks,holiday_weeks,hours_per_week
+Entity A,internal,2026-01,4.5,0.5,40
+Entity A,external,2026-01,4.0,0.0,40
+Entity B,internal,2026-01,4.5,0.5,40
+Entity B,external,2026-01,4.0,0.0,40

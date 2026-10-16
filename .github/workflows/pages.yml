@@ -17,13 +17,17 @@ concurrency:
 jobs:
   test:
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        project: [bonus-recognition-prototype, ias-38-prototype]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - name: Test bonus-recognition-prototype
-        working-directory: bonus-recognition-prototype
+      - name: Test ${{ matrix.project }}
+        working-directory: ${{ matrix.project }}
         run: python3 -m unittest discover -s tests -t . -v
 
   deploy:
@@ -37,10 +41,12 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - name: Build bonus-recognition-prototype
-        working-directory: bonus-recognition-prototype
-        run: python3 -m src.run ../_site/bonus-recognition-prototype
-      - run: cp index.html _site/index.html
+      - name: Build all prototypes
+        run: |
+          for project in bonus-recognition-prototype ias-38-prototype; do
+            (cd "$project" && python3 -m src.run "../_site/$project")
+          done
+          cp index.html _site/index.html
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

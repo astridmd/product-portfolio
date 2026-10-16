@@ -1,0 +1,7 @@
+entity_code,period,pool_type,department,category,amount
+Entity A,2026-01,general,,Office rent and facilities,20000.0
+Entity A,2026-01,general,,Company-wide software,30100.0
+Entity A,2026-01,general,,Other administrative overheads,10000.0
+Entity A,2026-01,department,Platform,Platform tooling and hosting,15000.0
+Entity A,2026-01,department,Product,Product software,6000.0
+Entity A,2026-01,department,Design,Design software,2000.0
