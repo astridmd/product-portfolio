@@ -39,7 +39,7 @@ NAV = [
     ("grouping.html", "Grouping and Journal summary"),
     ("posting.html", "Monthly posting"),
     ("reconciliation.html", "Reconciliation"),
-    ("model.html", "Model and open points"),
+    ("model.html", "Model and what is not covered"),
 ]
 
 MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
@@ -170,7 +170,7 @@ def build_index(conn, cfg, check_list):
         "<li>The welcome bonus GL pattern. Welcome stops at the Journal summary.</li>"
         "<li>The IFRS 15 treatment itself, the IRRS performance obligation configuration, cancellations, "
         "early termination, foreign exchange, or the send to the ERP.</li></ul>"
-        "<p><a href=\"model.html\">Open points with Alex and Finance</a></p>")
+        "<p><a href=\"model.html\">Model and what is not covered</a></p>")
     return page("Overview", "index.html", body)
 
 
@@ -404,19 +404,8 @@ def build_model(conn):
         ["posting_line, posting_line_source", "calculated", "Capitalisation, release and net journals, with the rows behind each line."],
     ]
     body = (
-        "<h1>Model and open points</h1><h2>Tables</h2>"
+        "<h1>Model and what is not covered</h1><h2>Tables</h2>"
         + table(["Table", "Layer", "What it holds"], [[escape(a), b, escape(c)] for a, b, c in tables]) +
-        "<h2>Open with Alex and Finance</h2><ul>"
-        "<li>Whether the bonus payout is already booked in Selling and distribution when it is paid. The "
-        "credit in bonus payout capitalisation reverses that. If the payout is booked straight to the "
-        "balance sheet, only the release is needed.</li>"
-        "<li>Why each amount splits 50% and 50% between Prepayments and Contract costs, and why one half of "
-        "the release goes against Revenue and the other against Selling and distribution.</li>"
-        "<li>Who posts bonus payout capitalisation once the automation is live.</li>"
-        "<li>How often to post. Journals may be posted per year or quarter, this prototype posts monthly.</li>"
-        "<li>The welcome bonus GL pattern.</li>"
-        "<li>The treatment of an amount capitalised in the placement month when the payout happens weeks "
-        "later. Alex said the payout date does not matter.</li></ul>"
         "<h2>Not covered</h2><ul>"
         "<li>The IFRS 15 recognition criteria. This is a calculation, not an assessment.</li>"
         "<li>The IRRS performance obligation configuration that must produce a straight line for "
@@ -430,7 +419,7 @@ def build_model(conn):
         "<li>The send to the ERP and the matching of ERP internal ids.</li></ul>"
         "<h2>Placeholders</h2><p>Process type ids 9001 and 9002 and the grouping key suffix 1-2-1 are "
         "placeholders taken from the Mickey Mouse sample.</p>")
-    return page("Model and open points", "model.html", body)
+    return page("Model and what is not covered", "model.html", body)
 
 
 def build(conn, out_dir):
